@@ -53,5 +53,5 @@ print(num_array)
 print(color_array)
 print(im_to_color[12][11][0])
 im.show()
-#for test
+#for test11111
             

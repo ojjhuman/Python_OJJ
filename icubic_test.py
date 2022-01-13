@@ -38,7 +38,7 @@ for i in range(px_h):
     temp_num = 1
     jth = px_w -1
     for j in reversed(range(px_w)):
-        
+
         if j != 0:
             if im_to_color[i][j][0] == im_to_color[i][j-1][0] and im_to_color[i][j][1] == im_to_color[i][j-1][1] and im_to_color[i][j][2] == im_to_color[i][j-1][2]:
                 temp_num += 1
@@ -53,4 +53,5 @@ print(num_array)
 print(color_array)
 print(im_to_color[12][11][0])
 im.show()
+#for test
             

@@ -1,5 +1,6 @@
-from PIL import Image
 import numpy as np
+from PIL import Image
+
 
 def rgb2hex(r,g,b):
     return "#{:02x}{:02x}{:02x}".format(r,g,b)
@@ -54,4 +55,3 @@ print(color_array)
 print(im_to_color[12][11][0])
 im.show()
 #for test11111222
-            
